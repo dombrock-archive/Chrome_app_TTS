@@ -1,0 +1,13 @@
+{
+  "name": "Chrome App TTS",
+  "description": "Example of the Chrome TTS engine",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+	"permissions": ["tts"],
+  	"icons": { "16": "icon_128.png", "128": "icon_128.png" }
+}
